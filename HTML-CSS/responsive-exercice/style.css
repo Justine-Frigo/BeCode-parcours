@@ -1,0 +1,98 @@
+@media screen and (max-width: 480px) {
+    main {
+        background-color: #C44536;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px 15px;
+        grid-template-areas:
+            ". small ."
+            ". medium ."
+            ". large .";
+    }
+
+    .small {
+        grid-area: small;
+    }
+
+    .medium {
+        grid-area: medium;
+    }
+
+    .large {
+        grid-area: large;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+    main {
+        background-color: #036016;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px 15px;
+        grid-template-areas:
+            "small small medium"
+            "large large large"
+            ". . .";
+    }
+
+    .small {
+        grid-area: small;
+    }
+
+    .medium {
+        grid-area: medium;
+    }
+
+    .large {
+        grid-area: large;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        background-color: #125E8A;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px 15px;
+        grid-template-areas:
+            "small medium large"
+            ". . ."
+            ". . .";   
+    }
+
+    .small {
+        grid-area: small;
+    }
+
+    .medium {
+        grid-area: medium;
+    }
+
+    .large {
+        grid-area: large;
+    }
+}
+
+main {
+    color: #EAF4D3;
+    text-align: justify;
+}
+
+html p {
+    font-size: calc(15px + 0.39vw);
+    margin: 20px;
+}
+
+html h2 {
+    font-size: calc(30px + 0.39vw);
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}

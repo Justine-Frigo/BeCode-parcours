@@ -1,0 +1,71 @@
+:root{
+    --firstColor: #931621;
+    --secondColor:  black;
+    --thirdColor: #0C7C59;
+    --fourthColor: white;
+}
+
+section {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.container img {
+  width: 600px;
+}
+
+.text {
+  position: relative;
+  display: block;
+  padding: 40px 40px;
+  width: 450px;
+  border-top: 3px solid var(--firstColor);
+  border-right: 3px solid var(--firstColor);
+  border-bottom: 3px solid var(--firstColor);
+  border-left: 3px solid var(--firstColor);
+}
+
+.text h1 {
+  color: var(--secondColor);
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.text p {
+  font-size: 15px;
+  color: var(--secondColor);
+  font-size: 25px;
+  margin-bottom: 15px;
+  line-height: 2rem;
+  margin-bottom: 15px;
+}
+
+.button {
+  position: absolute;
+  display: block;
+  top: 330px;
+  right: 210px;
+  background-color: var(--thirdColor);
+  color: var(--fourthColor);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--thirdColor);
+}
+
+.button:active {
+  background-color: var(--thirdColor);
+}

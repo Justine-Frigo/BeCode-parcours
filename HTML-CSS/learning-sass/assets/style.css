@@ -1,0 +1,122 @@
+body {
+  background-color: #DFE0E2;
+  font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+article {
+  background-color: #FFFFFF;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  overflow: hidden;
+}
+article:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+article:hover .texte {
+  visibility: visible;
+  display: block;
+  margin-bottom: 50px;
+}
+article:hover .photos {
+  animation: zoom-in 1.5s forwards;
+  height: 150px;
+  width: 100%;
+}
+
+.photos {
+  height: 60%;
+  width: 100%;
+  background-image: url(../assets/india.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+
+.title {
+  margin: 0 15px;
+  text-align: justify;
+}
+.title h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+.title h2 {
+  margin-top: -15px;
+  color: #F55D3E;
+  font-weight: lighter;
+}
+
+.texte {
+  color: grey;
+  visibility: hidden;
+  display: none;
+  margin: 0 20px;
+  text-align: justify;
+}
+
+.date {
+  background-color: #F55D3E;
+  color: #FFFFFF;
+  position: absolute;
+  text-align: center;
+  font-size: 10px;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.date h2 {
+  margin-top: 0;
+}
+
+.pin {
+  background-color: #F55D3E;
+  color: #FFFFFF;
+  font-size: 10px;
+  margin-bottom: -50px;
+  position: relative;
+  bottom: 39px;
+  padding: 0 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.socials {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: -20px;
+}
+.socials ul {
+  display: flex;
+  list-style-type: none;
+}
+.socials ul li {
+  color: grey;
+  margin-right: 30px;
+}
+
+@keyframes zoom-in {
+  0% {
+    background-size: 100%;
+    filter: opacity(75%);
+  }
+  100% {
+    background-size: 120%;
+    filter: opacity(50%);
+  }
+}/*# sourceMappingURL=style.css.map */

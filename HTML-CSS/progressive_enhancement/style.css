@@ -1,0 +1,168 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #442b48;
+  max-width: 90%;
+  margin: 0 auto;
+  background: radial-gradient(
+    #d5573bff,
+    #885053ff,
+    #777da7ff,
+    #94c9a9ff,
+    #c6ecaeff
+  );
+  background-image: url("squiggles-7433036_1280.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+}
+
+a {
+  color: #d5573bff;
+  transition: color ease-in-out 300ms;
+}
+
+a:visited {
+  color: #d5573bff;
+  transition: color ease-in-out 300ms;
+}
+
+a:hover {
+  color: red;
+  transition: color ease-in-out 300ms;
+}
+
+blockquote {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 160%;
+  background-color: lightgray;
+  border-left: 3px solid;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.villagers {
+  border-left: 3px solid #41d3bd;
+  font-style: italic;
+}
+
+.farmer {
+  border-left: 3px solid #de6449;
+  font-style: italic;
+}
+
+h1 {
+  background-color: #ffbf46;
+  text-align: center;
+  font-size: 40px;
+}
+
+.good,
+.bad {
+  text-transform: capitalize;
+}
+
+.good {
+  color: #4f9d69;
+}
+
+.bad {
+  color: #fb3640;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+ul li:first-of-type {
+  background-image: url(bien.png);
+  background-repeat: no-repeat;
+  background-position: left 350px center;
+  background-size: contain;
+}
+
+ul li:nth-of-type(2) {
+  background-image: url(mal.png);
+  background-repeat: no-repeat;
+  background-position: left 350px center;
+  background-size: contain;
+  margin-top: 5px;
+}
+
+ul li:nth-of-type(3) {
+  background-image: url(chat.png);
+  background-repeat: no-repeat;
+  background-position: left 350px center;
+  background-size: contain;
+}
+
+ul {
+  line-height: 28px;
+}
+
+p:first-of-type {
+  font-weight: bold;
+}
+
+
+img[alt~="chinese"] {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.mars{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.mars img{
+  width: 100%;
+  height: 350px;
+}
+
+
+figure[alt~="old"]
+{
+    width: 360px;
+    float: left;
+    margin: 0 auto 5px auto;
+}
+
+img[alt~="farmer"]
+{
+    width: 300px;
+    height: auto;
+    margin: 0px 115px 5px 0px;
+}
+
+h2, h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.watts{
+    text-align: right;
+}
